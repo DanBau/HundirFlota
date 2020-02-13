@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">HundirFlota</string>
+    <string name="ranking">RANKING</string>
+    <string name="acerca_de">ACERCA DE</string>
+    <string name="jugar">JUGAR</string>
+    <string name="ayuda">AYUDA</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="intentos">INTENTOS</string>
+    <string name="hundir_la_flota">HUNDIR LA FLOTA</string>
+    <string name="se_trata_del_t_pico_juego_de_hundir_la_flota_contra_la_m_quina">Se trata del típico juego de Hundir la flota contra la máquina</string>
+    <string name="tablero_de_8x8_con_6_barcos">- Tablero de 8x8 con 6 barcos:</string>
+    <string name="_1_barco_de_4_de_longitud">- 1 Barco de 4 de Longitud</string>
+    <string name="_2_barco_de_3_de_longitud">- 2 Barco de 3 de Longitud</string>
+    <string name="_3_barco_de_2_de_longitud">- 3 Barco de 2 de Longitud</string>
+    <string name="gana_quien_hunda_todos_los_barcos_con_menos_intentos_y_en_menos_tiempo">Gana quien hunda todos los barcos con menos intentos y en menos tiempo.</string>
+    <string name="pierde_si_superas_los_40_intentos">Pierde si superas los 40 intentos</string>
+    <string name="acerca_del_juego">ACERCA DEL JUEGO</string>
+    <string name="autor_daniel_bautista">Autor: Daniel Bautista</string>
+    <string name="curso_2_dam">Curso: 2º Dam</string>
+    <string name="asignatura_programaci_n_multimedia_y_dispositivos_m_viles">Asignatura: Programación Multimedia y Dispositivos Móviles</string>
+    <string name="proyecto_hundir_la_flota">Proyecto: Hundir la flota</string>
+    <string name="fecha_enero_del_2020">Fecha: ENERO DEL 2020</string>
+    <string name="volver">Volver</string>
+    <string name="guardar">Guardar</string>
+    <string name="deseas_guardar_tu_partida">¿Deseas Guardar tu partida?</string>
+    <string name="posici_n">Posición</string>
+    <string name="nombre">Nombre</string>
+    <string name="intentosmin">Intentos</string>
+    <string name="tiempo">Tiempo</string>
+    <string name="textview">TextView</string>
+    <string name="_1">1</string>
+</resources>

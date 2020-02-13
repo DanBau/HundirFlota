@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.RankingActivity"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/posici_n"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/icons"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:paddingTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/nombre"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/icons"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:paddingTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/intentosmin"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/icons"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:paddingTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/tiempo"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/icons"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:paddingTop="10dp"
+            />
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/lvRanking"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+</LinearLayout>

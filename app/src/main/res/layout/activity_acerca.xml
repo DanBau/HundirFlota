@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.AcercaActivity"
+    android:orientation="vertical"
+    android:background="@color/icons"
+    >
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/acerca_del_juego"
+        android:textAlignment="center"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/icons"
+        android:textSize="30dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/autor_daniel_bautista"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/curso_2_dam"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="30dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/asignatura_programaci_n_multimedia_y_dispositivos_m_viles"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/proyecto_hundir_la_flota"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fecha_enero_del_2020"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:paddingLeft="20dp"/>
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="50dp"
+    >
+
+    <TextView
+        android:id="@+id/lvR_Pos"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:background="@color/colorPrimaryLight"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:paddingTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/lvR_Nombre"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:background="@color/colorPrimaryLight"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:paddingTop="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/lvR_Intentos"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:text="TextView"
+        android:background="@color/colorPrimaryLight"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:paddingTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/lvR_Tiempo"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:text="TextView"
+        android:background="@color/colorPrimaryLight"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:paddingTop="10dp"
+        />
+</LinearLayout>

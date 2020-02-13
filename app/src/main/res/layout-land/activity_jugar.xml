@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <fragment
+        android:id="@+id/frag_tablero"
+        android:name="com.daniel_bautista.hundirflota.Fragments.TableroFrag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="45"/>
+
+    <fragment
+        android:id="@+id/frag_barcos"
+        android:name="com.daniel_bautista.hundirflota.Fragments.BarcosFrag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="55" />
+
+</LinearLayout>

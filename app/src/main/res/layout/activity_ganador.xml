@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/icons"
+    tools:context=".Activitys.GanadorActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        app:srcCompat="@drawable/winner"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/gan_txtIntentos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:text="@string/textview"
+        android:textColor="@color/colorPrimaryDark"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:id="@+id/gan_txtTiempo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:text="@string/textview"
+        android:textColor="@color/colorPrimaryDark"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:textSize="25dp" />
+
+    <TextView
+    android:id="@+id/gan_txtganador"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/deseas_guardar_tu_partida"
+    android:layout_weight="10"
+    android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:paddingTop="20dp"/>
+
+
+    <EditText
+        android:id="@+id/gan_txtganadorNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:autoText="false"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/nombre"
+        android:maxLength="10"
+        android:textSize="25dp"
+        android:paddingLeft="20dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/gan_btnGuardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/guardar" />
+
+        <Button
+            android:id="@+id/gan_btnVolver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/volver" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

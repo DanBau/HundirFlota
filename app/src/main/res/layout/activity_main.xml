@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.MainActivity"
+    android:background="@color/colorPrimaryText">
+
+    <Button
+        android:id="@+id/main_btnAyuda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:drawableLeft="@android:drawable/ic_menu_help"
+        android:text="@string/ayuda"
+        app:layout_constraintBottom_toTopOf="@+id/main_btnAcercaDe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/icons"
+        android:textSize="25dp"
+        android:padding="10dp"
+
+        />
+
+    <Button
+        android:id="@+id/main_btnJugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jugar"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:drawableLeft="@android:drawable/ic_media_play"
+        app:layout_constraintBottom_toTopOf="@+id/main_btnRanking"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.924"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/icons"
+
+        />
+
+    <Button
+        android:id="@+id/main_btnRanking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="@string/ranking"
+        app:layout_constraintBottom_toTopOf="@+id/main_btnAyuda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:drawableLeft="@android:drawable/btn_star"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/icons"
+        />
+
+    <Button
+        android:id="@+id/main_btnAcercaDe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:drawableLeft="@android:drawable/ic_menu_info_details"
+        android:text="@string/acerca_de"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/icons"
+        android:textSize="20dp"
+        android:padding="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="282dp"
+        android:layout_height="225dp"
+        app:layout_constraintBottom_toTopOf="@+id/main_btnJugar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/imgapp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/hundir_la_flota"
+        android:textAlignment="center"
+        android:textColor="@color/icons"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
